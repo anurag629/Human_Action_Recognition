@@ -1,0 +1,115 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.ai_new/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# matplotlib configuration file
+.matplotlib/
+
+# Logs
+*.log
+
+# Config files
+config.json
+
+# Data files
+data/raw/
+data/encoded/
+data/processed/
+data/*.h5
+
+# TensorBoard log files
+runs/
+
+# Model files
+*.h5
+*.ckpt
+*.pth
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Documentation
+/docs/_build/
+*.html
+
+# Include images and videos in the docs directory
+!docs/
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
+!docs/**/*.gif
+!docs/**/*.mp4
+!docs/**/*.avi
+!docs/**/*.mov
+!docs/**/*.mkv
+
+# Exclude experiment files
+experiments/
+
+# Exclude pose files from the model directory
+src/models/pose/
+
+# pytest
+.cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+coverage.xml
+nosetests.xml
+coverage/
+*.cover
+
+# Environment variables
+.env
+.venv
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Hidden files and directories
+.*
+!/.gitignore
