@@ -60,8 +60,8 @@ This project implements a Part-based Graph Convolutional Network (PB-GCN) for ac
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd part_based_gcn_action_recognition
+   git clone https://github.com/anurag629/Human_Action_Recognition
+   cd Human_Action_Recognition
    ```
 
 2. Install the required packages:
